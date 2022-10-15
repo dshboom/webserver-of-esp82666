@@ -1,0 +1,280 @@
+body
+{
+  background: rgb(85, 85, 85);
+  color: white;
+  padding: 0px;
+  margin: 0px;
+  font-weight: 100;
+  font-family: "Noto Sans SC";
+}
+header
+{
+  background-color: black;
+  background-position: center;
+  background-image: url(./img/background.jpg);
+  background-size: 130%;
+  height: 150px;
+  margin: 0;
+  padding: 20%;
+}
+header.about
+{
+  background-color: black;
+  background-position: center;
+  background-image: url(./img/background_.vague.jpg);
+  background-size: 130%;
+  height: 150px;
+  margin: 0;
+  padding: 20%;
+}
+.title_proj
+{
+  position: absolute;
+  top: 0;
+  text-decoration: none;
+  color: rgb(213, 222, 230);
+  font-size: 17px;
+  text-align: center;
+  display: inline-block;
+  height: 26px;
+  line-height: 26px;
+  padding: 20px 20px 16px 20px;
+}
+.title_proj#resource
+{
+  left: 216px;
+}
+.title_proj#about
+{
+  left: 290px;
+}
+.title_proj:hover
+{
+  box-shadow: 0 1px #fff, 0 2px #fff, 0 3px #fff;
+  color: rgb(243, 243, 243);
+  background-color: hsla(0, 0%, 100%, .25);
+}
+.conent figure img
+{
+  border: 0.4px solid white;
+  border-radius: 50%;
+  width: 350px;
+  box-shadow: gray 0 0 10px;
+}
+.conent figure
+{
+  margin: 4.8%;
+  text-align: center;
+  width: 270px;
+}
+.conent
+{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+.line
+{
+  position: absolute;
+  top: 65px;
+  left: -10px;
+  width: 101%;
+  height: 1px;
+  border-top: solid #848484 1px;
+  opacity: 0.5;
+  /* border-bottom: 0.5px solid rgb(127, 127, 127);  */
+}
+nav ul
+{
+  color: white;
+  margin: -28%;
+  padding: 0%;
+  list-style-type: none;
+}
+nav li
+{
+  display: inline-block;
+  margin: 0px 20px 0px;
+}
+header .header_logo a
+{
+  position: absolute;
+  top: 6px;
+  left: 80px;
+  background-image: url(./img/dsh_logo_white.png);
+  background-size: 100px;
+  width: 100px;
+  height: 55px;
+  display: inline-block;
+  text-indent: -99999999px;
+}
+.header_logo a:hover
+{
+  opacity: 0.8;
+}
+.Zone
+{
+  opacity: 0.85;
+}
+.Zone:hover
+{
+  opacity: 1;
+}
+footer
+{
+  font-family: auto;
+  background: black;
+  padding: 3%;
+}
+p#Cflag
+{
+  position: absolute;
+  top: 350px;
+  left: 90px;
+  font-size: 50px;
+}
+p#flag
+{
+  position: absolute;
+  top: 280px;
+  left: 80px;
+  font-size: 60px;
+  font-weight: bolder;
+}
+p#about
+{
+  position: absolute;
+  top: 15px;
+  left: 80px;
+  font-size: 60px;
+}
+.line#abouttop
+{
+  position: absolute;
+  top: 172px;
+  left: 80px;
+  width: 85%;
+  height: 1px;
+  border-top: solid #c7c7c7 1px;
+  opacity: 0.8;
+  /* border-bottom: 0.5px solid rgb(127, 127, 127);  */
+}
+p#zonedescription
+{
+  /* position:absolute;
+  top: 635px;
+  left: 40px; */
+  Text-align:center;
+  font-size: 30px;
+  font-weight:bolder;
+}
+p#descriptionaboutme
+{
+  position: absolute;
+  top: 150px;
+  left: 80px;
+  font-size: 25px;
+  line-height: 1.8;
+}
+.line#aboutunder
+{
+  position: absolute;
+  top: 500px;
+  left: 80px;
+  width: 52%;
+  height: 1px;
+  border-top: solid #c7c7c7 1px;
+  opacity: 0.8;
+  /* border-bottom: 0.5px solid rgb(127, 127, 127);  */
+}
+img#electrician,#arduino,#C
+{
+  cursor: pointer;
+}
+a#gotoqqbutton
+{
+  position: absolute;
+  top: 20px;
+  left: 900px;
+  cursor: pointer;
+  text-decoration: none;
+  color: rgb(213, 222, 230);
+  font-size: 18px;
+  text-align: center;
+  display: inline-block;
+  height: 5px;
+  line-height: 5px;
+  border-radius: 7px;
+  padding: 10px 5px 12px 5px;
+}
+a#gotoqqbutton:hover
+{
+  color: rgb(243, 243, 243);
+  background-color: hsla(0, 0%, 100%, .25);
+}
+a.blink
+{
+  cursor: pointer;
+  text-decoration: none;
+  color: rgb(213, 222, 230);
+  font-size: 18px;
+  text-align: center;
+  display: inline-block;
+  height: 5px;
+  line-height: 5px;
+  border-radius: 7px;
+  padding: 10px 5px 12px 5px;
+}
+a.blink#trunOn
+{
+  position: absolute;
+  top: 250px;
+  left: 100px;
+}
+a.blink#trunOff
+{
+  position: absolute;
+  top: 250px;
+  left: 200px;
+}
+a.blink:hover
+{
+  color: rgb(243, 243, 243);
+  background-color: hsla(0, 0%, 100%, .25);
+}
+a.TX
+{
+  position: absolute;
+  top: 350px;
+  left: 100px;
+  cursor: pointer;
+  text-decoration: none;
+  color: rgb(213, 222, 230);
+  font-size: 18px;
+  text-align: center;
+  display: inline-block;
+  height: 5px;
+  line-height: 5px;
+  border-radius: 7px;
+  padding: 10px 5px 12px 5px;
+}
+a.TX:hover
+{
+  color: rgb(243, 243, 243);
+  background-color: hsla(0, 0%, 100%, .25);
+}
+p#msg
+{
+  position: absolute;
+  top: 260px;
+  left: 80px;
+  font-size: 25px;
+  line-height: 1.8;
+}
+div#demo
+{
+  position: absolute;
+  top: 400px;
+  left: 80px;
+}
